@@ -1,11 +1,70 @@
 
 
-function fucnName(){
-    let rand=(Math.floor(Math.random()*6)+1);
-    console.log(rand);
-}
 
-fucnName();
+
+
+
+
+//RETURN FUNCTION 
+
+
+function fucnName(){
+    let age=12;
+    if(age<=18){
+        return "adult";
+    }else
+        return "no a adult";
+}
+console.log(fucnName());
+
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(2,3));
+
+
+
+
+
+
+//number's  table
+
+// function table(){
+//     let input=prompt("enter the table of the  number ");
+//     n=parseInt(input);
+//     for(let i=n; i<=n*10; i=i+n){
+
+//         console.log(i);
+//     }
+// }
+// table();
+
+//avgof three  number
+
+// function avgnum(num1,num2,num3) {
+//     avgofthree=(num1+num2+num3)/3;
+//     console.log(`average of three number is ${avgofthree}`);
+// }
+// avgnum(2,3,4);
+
+
+
+
+
+//FUCTION WITH ARGUMENTS
+// function fucnName(name,age){
+//     console.log(` ${name}'s is the boss and his age is ${age}`);
+// }
+// fucnName("shankar",30);
+
+
+
+// function fucnName(){
+//     let rand=(Math.floor(Math.random()*6)+1);
+//     console.log(rand);
+// }
+
+// fucnName();
 
 
 
