@@ -1,22 +1,36 @@
 
-const max=prompt("enter the max number");
-const random=Math.floor(Math.random()*max)+1;
-let guess=prompt("enter the random number:");
 
-while(true){
-if(guess=="quit"){
-    console.log("your are quiteded");
-    break;
+function fucnName(){
+    let rand=(Math.floor(Math.random()*6)+1);
+    console.log(rand);
+}
+
+fucnName();
+
+
+
+
+
+
+
+// const max=prompt("enter the max number");
+// const random=Math.floor(Math.random()*max)+1;
+// let guess=prompt("enter the random number:");
+
+// while(true){
+// if(guess=="quit"){
+//     console.log("your are quiteded");
+//     break;
     
-}else if(guess==random){
-    console.log(" you Enter the correct  number ",random);
-    break;
-}else if(guess<random){
-    guess=prompt("to less");
-}else if(guess>random){
-    guess=prompt("to high");
-}
-}
+// }else if(guess==random){
+//     console.log(" you Enter the correct  number ",random);
+//     break;
+// }else if(guess<random){
+//     guess=prompt("to less");
+// }else if(guess>random){
+//     guess=prompt("to high");
+// }
+// }
 // 
 
 
