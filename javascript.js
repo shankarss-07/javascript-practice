@@ -1,6 +1,16 @@
 
 
 
+//SUM OF N NUMBER
+function funcsum(n){
+    let sum=0;
+    for(i=0; i<=n; i++){
+        sum=sum+i;
+    }
+return sum;
+}
+console.log(funcsum(5));
+
 
 
 
@@ -8,19 +18,19 @@
 //RETURN FUNCTION 
 
 
-function fucnName(){
-    let age=12;
-    if(age<=18){
-        return "adult";
-    }else
-        return "no a adult";
-}
-console.log(fucnName());
+// function fucnName(){
+//     let age=12;
+//     if(age<=18){
+//         return "adult";
+//     }else
+//         return "no a adult";
+// }
+// console.log(fucnName());
 
-function sum(a,b){
-    return a+b;
-}
-console.log(sum(2,3));
+// function sum(a,b){
+//     return a+b;
+// }
+// console.log(sum(2,3));
 
 
 
