@@ -1,15 +1,28 @@
 
 
 
-//SUM OF N NUMBER
-function funcsum(n){
-    let sum=0;
-    for(i=0; i<=n; i++){
-        sum=sum+i;
+// cancat of Array 
+ let array=["aaa",'bbb',"ccc",'cxccc'];
+ function fucnName(array){
+    let cancat="";
+    for(let i=0; i<array.length; i++){
+        cancat=cancat+array[i];
     }
-return sum;
-}
-console.log(funcsum(5));
+    return cancat;
+ } 
+console.log(fucnName(array));
+
+
+
+//SUM OF N NUMBER
+// function funcsum(n){
+//     let sum=0;
+//     for(i=0; i<=n; i++){
+//         sum=sum+i;
+//     }
+// return sum;
+// }
+// console.log(funcsum(5));
 
 
 
