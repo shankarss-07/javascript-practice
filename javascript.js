@@ -1,3 +1,46 @@
+
+
+
+
+
+let nam="i am ";//global scope
+function outer(){
+    let nam="shankar";//function scope //next this one
+    console.log(nam);
+function inner(){
+    console.log(nam);//lexical scope  and this is not printing beacuse we dint call inner function
+}
+}
+console.log(nam);// first prints
+outer();
+
+
+
+// // lexical scope like nested loop
+// function outer(){
+//     let a=2;
+//     let b=4;
+    
+// function inner(){ 
+//     let c=112;
+//         console.log(a);
+//         console.log(b);
+//         }
+// inner();
+// }
+// outer();
+// console.log(c);// not accessable from inner 
+
+
+
+
+//Block Scope 
+// for(let i=0; i<=10; i++){    
+// }
+//console.log(i);// it inly prints inside the flower brakets
+
+
+
 //GLOBAL SCOPE AND FUNCTION SCOPE
 
 let sum=54;//global scope
