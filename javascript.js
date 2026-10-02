@@ -1,4 +1,12 @@
+//GLOBAL SCOPE AND FUNCTION SCOPE
 
+let sum=54;//global scope
+function calSum(a,b){
+    let sum=a+b; //function scope
+    console.log(sum);
+}
+calSum(2,4);
+console.log(sum);
 
 
 // cancat of Array 
