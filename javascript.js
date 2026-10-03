@@ -1,18 +1,29 @@
 
+//HIGHER ORDER FUNCTIONS
+
+function multifunc(greet,count){
+    for(i=0; i<=count; i++){
+        greet();
+    }
+    }
+    let name=function(){
+        console.log("i am the Boss");
+    }
+multifunc(name,10);
 
 
 
 
-let nam="i am ";//global scope
-function outer(){
-    let nam="shankar";//function scope //next this one
-    console.log(nam);
-function inner(){
-    console.log(nam);//lexical scope  and this is not printing beacuse we dint call inner function
-}
-}
-console.log(nam);// first prints
-outer();
+//let nam="i am ";//global scope
+//function outer(){
+  //  let nam="shankar";//function scope //next this one
+  //  console.log(nam);
+// function inner(){
+//     console.log(nam);//lexical scope  and this is not printing beacuse we dint call inner function
+// }
+// }
+// console.log(nam);// first prints
+// outer();
 
 
 
