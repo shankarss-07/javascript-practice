@@ -1,4 +1,18 @@
+/THIS KEYWORD
 
+let Studentdata = {
+    name: "shankar",
+    phy: 23,
+    maths: 56,
+    che: 39,
+
+    getavg: function() {
+        let avg = (this.phy + this.maths + this.che) / 3;
+        console.log(avg);
+    }
+};
+
+Studentdata.getavg();
 
 //HIGHER ORDER FUNCTIONS retuns
 
