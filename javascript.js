@@ -1,3 +1,17 @@
+
+
+
+// // LENGTH OF LAST WORD
+// function LofLastW(s){
+//    let  word=s.trim().split(" ");
+//    let  lastword=word[word.length-1];
+//     console.log(lastword);
+//     return lastword.length;
+
+// };
+
+// console.log(LofLastW("shankar i am the boss"));
+
 /THIS KEYWORD
 
 let Studentdata = {
