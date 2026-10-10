@@ -1,3 +1,15 @@
+//SET TIMEOUT using arrow function
+// setTimeout( () => {
+//     console.log("apna college");
+// },4000);
+
+
+// //Store the function in a variable
+// let greet=function(){
+//     console.log("hi shankar");
+// };
+
+// setTimeout(greet,4000);
 
 
 // ARROW FUNCTION
