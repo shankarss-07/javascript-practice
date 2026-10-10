@@ -1,3 +1,19 @@
+
+
+// ARROW FUNCTION
+// const sum =(a,b) => {
+//     console.log(a+b);
+// }
+// sum(3,4);
+// const mul=(a,b) => {
+//     console.log(a*b);
+// }
+// mul(2,4);
+// const qube=(n) => {
+//     return n ** n;
+// }
+// qube(3);
+
 // REMOVE DUPLICATE FROM THE SORTED ARRAY
 var removeDuplicates = function(nums) {
     for (let i = 0; i < nums.length - 1; i++) {
