@@ -1,3 +1,52 @@
+//for each using arrow function
+
+//let array=[1,2,3,4,5,6];
+//array.forEach((ele) => {
+  //  console.log(ele);
+
+});
+
+//ARRAY METHOD
+
+// let array=[{
+//     name:'shankar',
+//     age:23,
+//     course:"CSE"
+// },
+//     {
+//     name:'shankar',
+//     age:28,
+//     course:"CSE"
+// },
+//     {
+//     name:'shankar',
+//     age:25,
+//     course:"CSE"
+// }];
+// array.forEach(function(student){
+//     console.log(student.age);
+// });
+
+
+
+// let  id= setInterval( () => {
+//     console.log("hello word ");  
+// },2000)
+
+// setTimeout(()=>{
+//     clearInterval(id);
+
+// },10000);
+
+
+
+//  SQUARE OF NUMBER OF N
+// const square=(n) =>{
+//     return n*n;
+    
+// }   
+// console.log(square(5));
+
 
 //SET TIMEOUT using arrow function
 // setTimeout( () => {
