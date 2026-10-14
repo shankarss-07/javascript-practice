@@ -1,3 +1,25 @@
+
+//SET TIMEOUT using arrow function
+// setTimeout( () => {
+//     console.log("apna college");
+// },4000);
+
+//for stop 
+ 
+// note every interval has one id 
+//let id=setTimeout( () => {
+//     console.log("apna college");
+// },4000);
+//clearInterval(id)
+
+
+// //Store the function in a variable
+// let greet=function(){
+//     console.log("hi shankar");
+// };
+
+// setTimeout(greet,4000);
+
 //SET TIMEOUT using arrow function
 // setTimeout( () => {
 //     console.log("apna college");
