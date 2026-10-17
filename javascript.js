@@ -1,3 +1,49 @@
+
+
+
+
+//spread 
+// let arr=[1,2,3,4,5,6,7,7,8,88];
+// let ar=[1,2,3,8,88];
+//  //console.log(Math.max(...arr));
+// // console.log(...arr);
+// // console.log(..."shankarss");
+// console.log(...arr);
+
+// let  data={
+//     name:"shankar",
+//     age:23,
+//     place:"davanagere"
+// }
+// let copy={...data,rank:"1st"}; //array literals
+// console.log(copy);
+
+
+// let arr=[1,2,3,4,5,6,7,7,8,88];//array object to spread 
+// let arrr={...arr};
+// console.log(arrr);
+
+
+// default parameter
+// function fnc(a,b=3){
+//     return a+b;
+// }
+// console.log(fnc(5));//giving the default value to the argument
+
+
+/// this is for finding the smallest element in the array
+
+// let array=[88,20,40,90];
+// let res=array.reduce((result,current) =>{
+//     if(result>current){
+//         return result;
+//     }else{
+//         return current;
+//     }
+// })
+// console.log(res);
+
+
 //for each using arrow function
 
 //let array=[1,2,3,4,5,6];
