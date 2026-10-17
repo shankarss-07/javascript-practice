@@ -1,3 +1,22 @@
+
+// rest (args) bundle them into  one array
+
+// function min(...args){
+//     return args.reduce((max,current) => {
+//         if(max<current){
+//            return max;
+//         }else{
+//             return current;
+//         }
+//     });
+// }
+// console.log(min(1,2,3,4));
+
+
+// function min(){
+// console.log(arguments) ///  values stores in the argument
+// }
+// min(1,2,3,4);
 // FOR checking every element in array is multiple of 10
 
 // let array=[88,20,40,90];
