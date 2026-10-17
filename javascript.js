@@ -1,3 +1,68 @@
+// FOR checking every element in array is multiple of 10
+
+// let array=[88,20,40,90];
+// let res=array.every((ele) => {
+//     if(ele%10==0){
+//         return ele;
+//     }
+//     });
+//     console.log(res);
+
+
+// for shorthand
+// let array=[10,20,40,90];
+// let res=array.every((ele) => ele%10==0);
+// console.log(res);
+
+
+// FIND THE GREATEST OF ARRAY
+// let array=[1,2,3,4,5,3,11,9];
+// let res=array.reduce((result,ele) =>{
+//  if(result<ele){
+//     return ele;
+//  }else{
+//     return result;
+//  }
+// });
+// console.log(res);
+
+
+
+
+
+// reduce()
+// let array = [ 1,3,5,9];
+// let name=array.reduce((ele,arr) =>{  
+//     return (ele+arr);
+// }); 
+// console.log(name); // reduces the all element into one
+
+
+
+
+//EVERY
+// let array = [ 1,3,,5,9];
+// let name=array.every((num)=>{
+//     return !(num%2==0);
+
+//  })
+//  console.log(name);//
+
+
+//filter 
+
+//  let array = [1, 2, 3, 4, 5, 6];
+//  let name=array.filter((num)=>{
+//     return (num%2==0);
+
+//  })
+//  console.log(name); // select element based on condition
+
+// let array = [1, 2, 3, 4, 5, 6];
+// let name=array.map((ele) => {
+//     return ele*18;
+// });
+// console.log(name); // transform the every element into new array
 
 
 
